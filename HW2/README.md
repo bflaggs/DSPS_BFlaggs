@@ -1,0 +1,11 @@
+## Contributions
+Andrew Crossman drafted MBoltzmannDistribution.ipynb, found means of the histograms and compared to analytic values, then consulted formatting for PEP8. Ben Flaggs set the seeds for reproducability, and was responsible for verifying physics, writing Gaussian functions and fitting to distributions. Nik Korzoun tested and bugfixed CentralLimitTheorem.ipynb, captioned figures and maintained code branches. Connor Mooney plotted means as a function of sample sizes for varying distributions, and generated histograms of all distribution sample means.
+
+## Questions
+1. This homework was about understanding different distributions. Specifically, it was about plotting distributions and understanding how the Central Limit Theorem impacted the means of the distributions. The application of the Central Limit Theorem to each distribution was shown visually by fitting a Gaussian function to a histogram of the means for each distribution. We also investigated reporducibility and physics of the speed of molecules in a gas with the MBoltzmannDistribution.ipynb assignment.
+2. The hardest part of the homework for me was finding a good way for all of our partners to collaborate on the Python Notebook files at the same time. We could all look at the same Google Colab notebook at the same time but if two of us were editing the file and someone ran a cell then one person's work would be saved and the other person's work would be overwritten. We did not realize this at first and it was a large headache as we lost some work. Eventually we found a workflow that works for us but it is far from ideal and we would prefer to all edit the same file at the same time.
+3. The easiest part of the homework for me was writing the non-normalized Gaussian function to be used for fitting. All I had to do was look up the form of a non-normalized Gaussian and implement this as a Python function.
+4. One new thing I learned was how to continue a string on multiple lines in Python. This was especially useful when writing the labels on the histogram plots with the Gaussian fits.
+
+### Submission Note
+The official submission for this group is in Nik Korzoun's ([@nkorzounUD](https://github.com/nkorzounUD)) HW2 GitHub repo, linked [here](https://github.com/nkorzounUD/DSPS_NKorzoun/tree/main/HW2).

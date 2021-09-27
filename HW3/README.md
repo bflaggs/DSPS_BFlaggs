@@ -1,1 +1,11 @@
-# HW3 
+## Contributions
+Members of this group were Andrew Crossman, Ben Flaggs (myself), Nik Korzoun, and Connor Mooney. Andrew Crossman made plot labels, checked the notebook for errors, then consulted formatting for PEP8. Ben Flaggs retrieved the data set from the SCEDC earthquake catalog, assisted with reading in, preparing, and selecting valuable data, assisted in making the histograms in the data exploration section, and aided with understanding of the pseudocode. Nik Korzoun implemented the KS test, remade Fig. 1 and Table 1 from [Corral 2018](https://arxiv.org/pdf/0910.0055.pdf), and maintained code branches. Connor Mooney also assisted with reading in, preparing, and selecting valuable data, assisted in making histograms and aided with understanding of the pseudocode.
+
+## Questions
+1. This homework was used to show many different aspects of science, specifically data science, while also furthering the student's understanding of the Kolmogorov-Smirnov (KS) statistical test. Specifically, we learned about reproducibility of scientific results as the ultimate goal of this homework was to reproduce results from [Corral 2018](https://arxiv.org/pdf/0910.0055.pdf). While reproducing these results we also learned many techniques data scientists must use when producing or repreducing results. These techniques include data retrieval, data cleaning/preparation (i.e. cutting out unneccessary data or putting data in useful formats), data exploration, and data analysis. Furthermore, we learned how to implement a two sample KS test to either accept or reject a null hypothesis that was presented in the 2018 paper by Corral.
+2. The hardest part of this homework for me was understanding how to implement a KS test on real data and what the output from the KS test results told us about the data.
+3. The easiest part of this homework for me was preparing the data so that it could be analyzed (i.e. converting the dates and times to a pandas datetime object, broadcasting arrays to cut low magnitude earthquakes, etc.).
+4. One new thing I learned was that you could plot directly from a pandas dataframe with the command ```df["NAME"].plot(*args, **kwargs)```.
+
+### Submission Note
+The official submission for this group is in Nik Korzoun's ([@nkorzounUD](https://github.com/nkorzounUD)) HW3 GitHub repo, linked [here](https://github.com/nkorzounUD/DSPS_NKorzoun/tree/main/HW3).

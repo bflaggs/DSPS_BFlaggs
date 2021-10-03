@@ -1,11 +1,11 @@
 ## Contributions
-Members of this group were Andrew Crossman, Ben Flaggs (myself), Nik Korzoun, and Connor Mooney.
+Members of this group were Andrew Crossman, Ben Flaggs (myself), Nik Korzoun, and Connor Mooney. Andrew Crossman derived the dependence of v^2 on r in a Newtonian framework, assisted in dubugging/writing the `vratios` function, and wrote the code for solving problem 1 in [Hogg and Foreman-Mackey 2017](https://arxiv.org/pdf/1710.06068.pdf). Ben Flaggs read in and cleaned up the galaxy data, found the angular and physical size of M31, drafted the `getradii` function, and assisted in debugging the code for problem 1 in [Hogg and Foreman-Mackey 2017](https://arxiv.org/pdf/1710.06068.pdf). Nik Kourzoun wrote the `vratios` function, repeated all necessary steps to make plots for the MW galaxy, assisted in debugging the code for problem 1 in [Hogg and Foreman-Mackey 2017](https://arxiv.org/pdf/1710.06068.pdf), and managed code branches. Connor Mooney assisted in the final draft of the `getradii` function, wrote the `plotGal` function, and assisted in debugging the code for problem 1 in [Hogg and Foreman-Mackey 2017](https://arxiv.org/pdf/1710.06068.pdf).
 
 ## Questions
-1. This homework was used to show ...
-2. The hardest part of this homework for me was ...
-3. The easiest part of this homework for me was ...
-4. One new thing I learned was ...
+1. This homework was used to show that a galaxy rotational curve does not follow the expected relationship between v^2 and r for a Newtonian framework. Hence, this implies the existance of dark matter. From this homework we also learned about error propagation and data presentation. Additionally, this homework was used to show how monte-carlo (MC) sampled values from a distribution could approximate the analytical solution of the distribution in the limit of a large number of MC samples. 
+2. The hardest part of this homework for me was attempting to understand how to compute an estimate of the mean, variance, skewness, and kurtosis for a sampled distribution.
+3. The easiest part of this homework for me was reading in and cleaning up the galaxy data (i.e. putting the data into a pandas dataframe that was actually useful for analysis/plotting).
+4. One new thing I learned was that the skewness of a laplace distribution is zero.
 
 ### Submission Note
 The official submission for this group is in Nik Korzoun's ([@nkorzounUD](https://github.com/nkorzounUD)) HW4 GitHub repo, linked [here](https://github.com/nkorzounUD/DSPS_NKorzoun/tree/main/HW4).

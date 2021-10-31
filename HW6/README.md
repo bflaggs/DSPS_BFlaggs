@@ -2,7 +2,7 @@
 
 ![bad plot](https://github.com/bflaggs/DSPS_BFlaggs/blob/main/HW6/wavefront_badplot_original.jpg "Original Bad Plot")
 
-![good plot](https://github.com/bflaggs/DSPS_BFlaggs/blob/main/HW6/wavefront_gootplot_updated.jpg "Updated Good Plot")
+![good plot](https://github.com/bflaggs/DSPS_BFlaggs/blob/main/HW6/wavefront_goodplot_updated.jpg "Updated Good Plot")
 
 The original plot suffers from both an odd color scaling map for the SNR values and an odd scaling of the SNR in general since the SNR values are quite large. To fix this issue I changed the color scaling map from the default `viridis` color map (which is a color map looping through several colors with different shades) to the `Blues` color map (which is a color map on shaowing a blue gradient). Applying this change makes it easier to see which antennas have larger SNR values compared to other antennas.
 

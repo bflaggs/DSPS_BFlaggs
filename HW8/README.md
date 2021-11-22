@@ -1,4 +1,4 @@
-# Offical Submission For Homework Eight by:
+# Unoffical Submission For Homework Eight by:
 Andrew Crossman -  https://github.com/AndrewCrossman <br />
 Ben Flaggs - https://github.com/bflaggs <br />
 Nik Korzoun - https://github.com/nkorzounUD <br />
@@ -22,3 +22,6 @@ Created loss functions. Assisted in finding beset four features. Plotted ROC cur
 2. The hardest part of this homework was finding what the optimal maximum depth was to use on the classifiers and regressors such that our results wer still decent.
 3. The easiest part of this homework was finding the four most important features of the data.
 4. I learned that the confusion matrices can show the true positive/negative and false positive/negative rates.
+
+### Submission Note
+The official submission for this group is in Nik Korzoun's ([@nkorzounUD](https://github.com/nkorzounUD)) HW8 GitHub repo, linked [here](https://github.com/nkorzounUD/DSPS_NKorzoun/tree/main/HW8).

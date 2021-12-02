@@ -1,6 +1,12 @@
 # Official Submission For Homework Nine by:
 Ben Flaggs - https://github.com/bflaggs <br />
 
+![original](https://github.com/bflaggs/DSPS_BFlaggs/blob/main/HW9/VLA_original.jpg "Original VLA Image")
+
+![deepdream](https://github.com/bflaggs/DSPS_BFlaggs/blob/main/HW9/VLA_deepdream_layer_mixed5a.jpg "Deepdream VLA Image")
+
+## Note
+I did not realize until today (12/02/2021) that the original and deepdream files needed to be added to our README files as this instruction was not listed anyway on the HW9 README when I completed the homework.
 
 ## Questions
 1. This homework was used to show how the deepdream algorithm works and how a neural network works in general.
